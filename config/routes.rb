@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  # root 'reacts#index' 
-  root 'restaurants#index'
+  root 'reacts#index' 
+  # root 'restaurants#index'
 
   # View from rails
-  resources :restaurants, only: [:create, :show] do 
-    resources :reviews, only: [:create]
-  end
+  # resources :restaurants, only: [:create, :show] do 
+  #   resources :reviews, only: [:create]
+  # end
 
   # Api from rails
   namespace :api do
