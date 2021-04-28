@@ -1,24 +1,15 @@
-# README
+# Ruby on Rails Meetup 28th April 2021 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## React on Rails
 
-Things you may want to cover:
+This project is part of live demo presentation done on 28th April 2021 during #RORO Melbourne event. 
 
-* Ruby version
+We will build React event based application from start to finish. 
 
-* System dependencies
+## Author
 
-* Configuration
+Akash Chhetri
 
-* Database creation
+## Contact
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+akash.chhetri(one)@gmail.com => remove (one) with 1 :)
