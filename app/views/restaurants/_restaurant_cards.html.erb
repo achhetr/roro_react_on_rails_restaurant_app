@@ -1,0 +1,17 @@
+<% @restaurants.each do |restaurant| %>
+  <div class="row my-4">
+    <div class="col-sm-8 mx-auto">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><%= restaurant.name %></h5>
+          <p class="card-text">
+            <%= restaurant.type_of %>
+            <span class="badge badge-pill badge-success"><%= all_ratings_sum(restaurant) %></span>
+          </p>
+          <p class="card-text"><%= truncate(restaurant.description, :length => 80) %></p>
+          <%= link_to "View Restaurant", restaurant_path(restaurant), class: "btn btn-primary" %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
