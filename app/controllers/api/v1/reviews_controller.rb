@@ -15,6 +15,6 @@ class Api::V1::ReviewsController < ApplicationController
   private
 
   def review_params
-    params.require(:review).permit(:title, :description, :score, :airline_id)
+    params.require(:review).permit(:username, :comment, :rating)
   end
 end

@@ -15,4 +15,8 @@ Rails.application.routes.draw do
       end
     end
   end
+
+  #all unmatched route path diverted to home page
+  # get '*path', to: 'reacts#index', via: :all
+  get '*path', to: 'restaurants#index', via: :all
 end
